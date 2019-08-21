@@ -1,7 +1,9 @@
+//这个就是显示文本的地方，TextView
+
 <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_width="wrap_content"             //这是文本框的宽，这个参数表示适应文本宽度，也可以设置为如13dp，多少多少dp等等。
+        android:layout_height="wrap_content"            //这是文本框的长，同上。
+        android:text="Hello World!"                     //这就是文本显示的内容了。
         android:textSize="20sp"
         android:textColor="#00f"
         android:background="#0f0"
